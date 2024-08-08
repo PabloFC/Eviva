@@ -8,7 +8,9 @@ function App() {
     <>
       <Hero />
       <CountDown />
-      <Feeling />
+      <div className="container">
+        <Feeling />
+      </div>
       <Separator1 />
     </>
   );
