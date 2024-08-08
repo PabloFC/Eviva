@@ -4,7 +4,7 @@ import bulletPoints from "../assets/img/feeling/Bullet-Points.png";
 const Feeling = () => {
   return (
     <section className="p-4 md:p-16">
-      <div className=" flex flex-col md:flex ">
+      <div className="flex flex-col md:flex-row ">
         <div className="basis 2/2 lg:basis-1/2 py-4">
           <h2 className="text-3xl font-bold"> Are you </h2>
           <h2 className="text-3xl font-bold"> feeling:</h2>
