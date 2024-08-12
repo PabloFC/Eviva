@@ -2,8 +2,12 @@ import "./App.css";
 import Hero from "./components/Hero";
 import CountDown from "./components/CountDown";
 import Feeling from "./components/Feeling";
-import Separator1 from "./components/Separator1";
 import Points from "./components/Points";
+import Separators from "./components/Separators";
+
+import separator1 from "./assets/img/separators/separator1.png";
+import separator2 from "./assets/img/separators/separator2.png";
+
 function App() {
   return (
     <>
@@ -12,10 +16,11 @@ function App() {
       <div className="container flex justify-center xl:pl-[156px]">
         <Feeling />
       </div>
-      <Separator1 />
+      <Separators separator={separator1} />
       <div className="container flex justify-center xl:pl-[156px]">
         <Points />
       </div>
+      <Separators separator={separator2} />
     </>
   );
 }

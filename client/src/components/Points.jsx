@@ -1,5 +1,6 @@
 import number1 from "../assets/img/points/number1.png";
 import PointsNumbers from "./PointsNumbers";
+import PrimaryButton from "./PrimaryButton";
 
 const Points = () => {
   return (
@@ -42,6 +43,7 @@ const Points = () => {
           />
         </div>
       </div>
+      <PrimaryButton />
     </section>
   );
 };
