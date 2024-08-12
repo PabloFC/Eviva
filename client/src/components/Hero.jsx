@@ -1,3 +1,5 @@
+import PrimaryButton from "./PrimaryButton";
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -19,11 +21,7 @@ const Hero = () => {
           <p className="text-center uppercase p-4 2xl:p-6">
             10th september 2024 12 PM - 1 PM CET
           </p>
-          <div className="flex justify-center p-4 2xl:p-6">
-            <a className="text-center uppercase custom-button text-white text-sm font-bold px-4 py-2.5 bg-[#a6035d] rounded-full cursor-pointer">
-              Save your spot
-            </a>
-          </div>
+          <PrimaryButton />
         </div>
       </div>
     </section>

@@ -13,24 +13,33 @@ const Points = () => {
             title="Understanding the Symptoms:"
             description="Explore the causes of fatigue, brain-fog, anxiety, sleep issues, and sugar cravings."
           />
+          <PointsNumbers
+            photo={number1}
+            title="Practical Tips:"
+            description="Gain simple, everyday strategies to combat brain fog, improve focus, and manage and reduce symptoms"
+          />
+          <PointsNumbers
+            photo={number1}
+            title="Root Causes and Solutions:"
+            description="Identify what's contributing to your anxiety and sleep problems and get actionable solutions to start feeling better"
+          />
         </div>
         <div className="basis 2/2 lg:basis-1/2 py-4">
-          <div className="flex items-start p-6">
-            <img
-              className="w-[15%] md:w-[10%]"
-              src={number1}
-              alt="bulletPoints"
-            />
-            <div className="py-4">
-              <p className="text-lg font-bold uppercase">
-                Understanding the Symptoms:
-              </p>
-              <p className="text-lg py-2">
-                Explore the causes of fatigue, brain-fog, anxiety, sleep issues,
-                and sugar cravings.
-              </p>
-            </div>
-          </div>
+          <PointsNumbers
+            photo={number1}
+            title="Hormonal Shifts:"
+            description="Learn how hormonal changes affect these symptoms and uncover what's really going on in your body."
+          />
+          <PointsNumbers
+            photo={number1}
+            title="Balancing Hormones:"
+            description="Discover ways to balance your hormones and curb your sugar cravings."
+          />
+          <PointsNumbers
+            photo={number1}
+            title="Community Support: "
+            description="Connect with other women facing similar challenges and share experiences."
+          />
         </div>
       </div>
     </section>
