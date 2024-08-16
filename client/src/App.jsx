@@ -4,6 +4,7 @@ import CountDown from "./components/CountDown";
 import Feeling from "./components/Feeling";
 import Points from "./components/Points";
 import Separators from "./components/Separators";
+import AgnieszkaSection from "./components/AgnieszkaSection";
 
 import separator1 from "./assets/img/separators/separator1.png";
 import separator2 from "./assets/img/separators/separator2.png";
@@ -21,6 +22,7 @@ function App() {
         <Points />
       </div>
       <Separators separator={separator2} />
+      <AgnieszkaSection />
     </>
   );
 }
